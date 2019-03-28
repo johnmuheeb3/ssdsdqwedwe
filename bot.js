@@ -109,7 +109,7 @@ client.on('message', message => {
 client.on('ready', function(){
     client.user.setStatus("online");
     var ms = 100000 ;
-    var setGame = [`-new`,`cards with The LORD`,`Premuim Number 006`];
+    var setGame = [`-new`,`cards with The LORD`,`Premuim Number 002`];
     var i = -1;
     var j = 0;
     setInterval(function (){
