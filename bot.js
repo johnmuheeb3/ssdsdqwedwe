@@ -127,7 +127,7 @@ client.on('ready', function(){
 
 
 
-onst developers = ["348554915876175902" , "349095859859881984"]
+const developers = ["348554915876175902" , "349095859859881984"]
 const adminprefix = "-";
 client.on('message', message => {//Toxic Codes
     var argresult = message.content.split(` `).slice(1).join(' ');//Toxic Codes
